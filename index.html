@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Evaluacion intermedia modulo 2</title>
 </head>
@@ -13,11 +14,11 @@
     </header>
     <main>
         <form class="form">
-            <label for="">Introduce aquí tu número:</label>
-            <input type="number">
-            <button>Prueba</button>
-            <p>Pista: Escribe el número y dale a Prueba </p>
-            <input type="text" value="Número de intentos: 0"/>
+            <label for="inputNumber">Introduce aquí tu número:</label>
+            <input type="number" id="inputNumber"  placeholder="Escribe un número entre 1 y 100" class="input js-inputNumber"  >
+            <input type="button" value="Prueba" class="js-button button">
+            <p class="paragraph js-text">Pista: Escribe el número y dale a Prueba </p>
+            <input type="text" value="Número de intentos: 0" class="inputtwo js-try" />
         </form>
         
     </main>

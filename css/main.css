@@ -17,3 +17,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+.label {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
