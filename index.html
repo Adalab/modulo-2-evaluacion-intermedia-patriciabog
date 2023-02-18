@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Evaluacion intermedia modulo 2</title>
+    <title>Evaluación intermedia modulo 2</title>
 </head>
-<body>
+<body class="body">
     <header>
         <h1 class="title">Adivina el número</h1>
     </header>
     <main>
         <form class="form">
-            <label for="inputNumber">Introduce aquí tu número:</label>
-            <input type="number" id="inputNumber"  placeholder="Escribe un número entre 1 y 100" class="input js-inputNumber"  >
-            <input type="button" value="Prueba" class="js-button button">
-            <p class="paragraph js-text">Pista: Escribe el número y dale a Prueba </p>
-            <input type="text" value="Número de intentos: 0" class="inputtwo js-try" />
+            <label for="inputNumber" class="label">Introduce aquí tu número:</label>
+            <div class="box-one">
+                 <input type="number" id="inputNumber" value="" placeholder="Escribe un número entre 1 y 100" class="input js-inputNumber"/>
+                 <input type="button" value="Prueba" class="js-button button"/>
+            </div>
+            <p class="paragraph js-text">Escribe un número y dale a Prueba </p>
+            <!--poner con p No input-->
+            <p class="counter js-counter">Número de intentos: 0</p>    
+            <!--Button that cleans the input, the counter, writes the initial feedback and generates a new random number to play again!-->
+           <input type="reset" class="reset js-reset"
+           value="Juega de nuevo"/>
         </form>
-        
     </main>
     <script src="./js/main.js"></script>
 </body>
