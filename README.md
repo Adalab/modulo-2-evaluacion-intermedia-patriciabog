@@ -20,7 +20,7 @@ Making a function that accepts a string as param and paints it into 'trackEl' in
 
 ## Authors  👋🏻
 
-- [@patriciabpg](https://github.com/patriciabog)
+- [@patriciabog](https://github.com/patriciabog)
 
 
 ## Demo 👩🏽‍💻
