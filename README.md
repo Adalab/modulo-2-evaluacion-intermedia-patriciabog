@@ -7,7 +7,7 @@ The game consists of the application generating a  random number between 1 to 10
 
 The game gives clues as if the number you try is too high or low and counts the number of attempts, until the player guess the number. 
 
-It has a reset button to "Play again".
+It have a reset button to "Play again".
 
 
 
